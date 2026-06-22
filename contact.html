@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact form">
+  <title>Contact form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <h1>Contact</h1>
+  </header>
+
+  <main id="main">
+    <form class="contact-form" novalidate>
+      <fieldset>
+        <legend>Get in touch</legend>
+
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Send message</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <a href="index.html">Back to Home</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
